@@ -1,9 +1,7 @@
 // Copyright The OpenTelemetry Authors
 // SPDX-License-Identifier: Apache-2.0
 
-module go.opentelemetry.io/collector/cmd/builder
-
-replace go.opentelemetry.io/collector/cmd/builder => .
+module github.com/dinghram/opentelemetry-collector/cmd/builder
 
 go 1.23.0
 

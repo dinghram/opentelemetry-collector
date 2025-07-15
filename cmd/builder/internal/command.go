@@ -1,7 +1,7 @@
 // Copyright The OpenTelemetry Authors
 // SPDX-License-Identifier: Apache-2.0
 
-package internal // import "go.opentelemetry.io/collector/cmd/builder/internal"
+package internal // import "github.com/dinghram/opentelemetry-collector/cmd/builder/internal"
 
 import (
 	"fmt"
@@ -16,8 +16,8 @@ import (
 	"go.uber.org/multierr"
 	"go.uber.org/zap"
 
-	"go.opentelemetry.io/collector/cmd/builder/internal/builder"
-	"go.opentelemetry.io/collector/cmd/builder/internal/config"
+	"github.com/dinghram/opentelemetry-collector/cmd/builder/internal/builder"
+	"github.com/dinghram/opentelemetry-collector/cmd/builder/internal/config"
 )
 
 const (

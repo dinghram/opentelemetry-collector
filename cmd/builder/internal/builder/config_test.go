@@ -15,7 +15,7 @@ import (
 	"go.uber.org/zap"
 	"go.uber.org/zap/zaptest"
 
-	"go.opentelemetry.io/collector/cmd/builder/internal/config"
+	"github.com/dinghram/opentelemetry-collector/cmd/builder/internal/config"
 )
 
 func TestAliases(t *testing.T) {
