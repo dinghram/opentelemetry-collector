@@ -3,6 +3,8 @@
 
 module go.opentelemetry.io/collector/cmd/builder
 
+replace go.opentelemetry.io/collector/cmd/builder => .
+
 go 1.23.0
 
 require (
